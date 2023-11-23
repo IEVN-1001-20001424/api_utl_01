@@ -10,6 +10,8 @@ def index():
 
 """ variable en html = variable en py """
 
+
+
 @app.route('/uno')
 def uno():
     return render_template('uno.html')
